@@ -1,0 +1,56 @@
+.menyo
+{
+    background-color: black;
+    background-image: image();
+}
+.menyo .navbar li a
+{
+    color: white;
+    font-family: 'Syne Mono', monospace;
+    margin-left: 10vh;
+    border-radius: 20px;
+}
+.menyo .navbar li a:hover
+{
+    font-size: 20px;
+   
+    
+    transition: ease-in-out 0.3s;
+}
+.menyo .navbar .container-fluid img
+{
+    width: 200px;
+    height: auto;
+}
+.menyo .navbar-nav 
+{
+    margin-left: 50vh;
+}
+.menyo .navbar-toggler-icon
+{
+    background-color: azure;
+    border-radius: 5px;
+}
+.bannsec .carousel-caption
+{
+    text-align: end;
+}
+.bannsec .carousel-caption a
+{
+    font-family: 'Syne Mono', monospace;
+}
+.bannsec .carousel-caption button:hover
+{
+    font-size: 20px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+@media (max-width: 992px){
+	.menyo .navbar-nav 
+{
+    margin-left: 10vh;
+}
+.menyo .navbar li a
+{
+    margin-left: 0vh;
+}
+}
