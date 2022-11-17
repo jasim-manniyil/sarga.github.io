@@ -80,7 +80,7 @@ body
 }
 .brosch img
 {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 @media (max-width: 992px){
