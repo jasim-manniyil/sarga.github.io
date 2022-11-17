@@ -10,13 +10,14 @@ body
 .menyo .navbar li a
 {
     color: white;
+    font-size: 18px;
     font-family: 'Syne Mono', monospace;
     margin-left: 10vh;
     border-radius: 20px;
 }
 .menyo .navbar li a:hover
 {
-    font-size: 20px;
+    font-size: 22px;
    
     
     transition: ease-in-out 0.3s;
@@ -56,7 +57,6 @@ body
     text-align: center;
     background-color: black;
     color: white;
-    background:black;
     
 }
 .sec1 h2
@@ -68,6 +68,15 @@ body
 {
    width: 100%;
    height: auto;
+}
+.sec1 a button
+{
+    font-family: 'Syne Mono', monospace;
+}
+.sec1 a button:hover
+{
+   font-size: 20px;
+   transition: ease-in-out 0.3s;
 }
 @media (max-width: 992px){
 	.menyo .navbar-nav 
