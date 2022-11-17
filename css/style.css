@@ -78,11 +78,7 @@ body
    font-size: 20px;
    transition: ease-in-out 0.3s;
 }
-.brosch img
-{
-    width: 100%;
-    height: auto;
-}
+
 @media (max-width: 992px){
 	.menyo .navbar-nav 
 {
