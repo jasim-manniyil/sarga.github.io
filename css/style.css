@@ -61,7 +61,7 @@ body
 }
 .sec1 h2
 {
-    font-family: 'Syne Mono', monospace;
+    font-family: 'Rubik Glitch', cursive;
     padding-top: 5vh;
 }
 .sec1 img
@@ -78,14 +78,19 @@ body
    font-size: 20px;
    transition: ease-in-out 0.3s;
 }
-
-@media (max-width: 992px){
+.brosch img
+{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 992px)
+{
 	.menyo .navbar-nav 
-{
-    margin-left: 10vh;
-}
-.menyo .navbar li a
-{
-    margin-left: 0vh;
-}
+    {
+        margin-left: 10vh;  
+    }
+    .menyo .navbar li a
+    {
+        margin-left: 0vh;
+    }
 }
