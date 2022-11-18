@@ -81,4 +81,12 @@ body
         margin-left: 15%;
         margin-right: 15%;
     }
+	.menyo .navbar-nav 
+    {
+        margin-left: 10vh;  
+    }
+    .menyo .navbar li a
+    {
+        margin-left: 0vh;
+    }
 }
