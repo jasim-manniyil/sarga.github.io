@@ -1,0 +1,84 @@
+body
+{
+    background-color: black;
+}
+.menyo
+{
+    background-color: black;
+    background-image: image();
+}
+.menyo .navbar li a
+{
+    color: white;
+    font-size: 18px;
+    font-family: 'Syne Mono', monospace;
+    margin-left: 10vh;
+    border-radius: 20px;
+}
+.menyo .navbar li a:hover
+{
+    font-size: 22px;
+   
+    
+    transition: ease-in-out 0.3s;
+}
+.menyo .navbar .container-fluid img
+{
+    width: 200px;
+    height: auto;
+}
+.menyo .navbar-nav 
+{
+    margin-left: 50vh;
+}
+.menyo .navbar-toggler-icon
+{
+    background-color: azure;
+    border-radius: 5px;
+}
+.bannsec .carousel-caption
+{
+    text-align: end;
+}
+.bannsec .carousel-caption a
+{
+    font-family: 'Syne Mono', monospace;
+}
+.bannsec .carousel-caption button:hover
+{
+    font-size: 20px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.columncard 
+{
+    align-items: center;
+    background-color: black;
+}
+.columncard .container
+    {
+        background-color: black;
+    }
+.columncard .container .card-body
+{
+    background-color: black;
+}
+.columncard .container .card-body h5,p
+{
+    color: white;
+}
+.columncard .container .card
+{
+    border: none;
+}
+@media (max-width: 992px){
+	.columncard 
+    {
+        align-items: center;
+    }
+    .columncard .container
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
