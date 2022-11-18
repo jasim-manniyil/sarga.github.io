@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Syne+Mono&display=swap" rel="stylesheet">
     <title>SARGA 22</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 </style>
-<body>
+<body style="background-color: black;">
 <div class="menyo">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -81,10 +83,10 @@
       </div>
 </div>
 <div class="sec1 ">
-    <h2 >MEA ENGINEERING COLLEGE<br>Perinthalmanna<br>PRESENTS<br><br></h2>
-      <a href=""><button type="button" class="btn btn-danger animate__animated animate__pulse  animate__delay-3s animate__infinite">Grab Your Ticket</button><br><br></a>
+    <h2 data-aos="fade-up" data-aos-duration="1500">MEA ENGINEERING COLLEGE<br>Perinthalmanna<br>PRESENTS<br><br></h2>
+      <a href="" data-aos="fade-up" data-aos-duration="1500"><button type="button" class="btn btn-danger animate__animated animate__pulse  animate__delay-3s animate__infinite">Grab Your Ticket</button><br><br></a>
 </div>
-<div class="ban2">
+<div class="ban2" data-aos="fade-up" data-aos-duration="1500">
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="1500">
@@ -110,13 +112,13 @@
 <div class="brosch">
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item active" data-aos="fade-up" data-aos-duration="1500">
         <img src="img/ban1.png" class="d-block w-100" alt="...">
       </div>
     </div>
   </div>
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <div class="carousel-inner" data-aos="fade-up" data-aos-duration="1500">
       <div class="carousel-item active">
         <img src="img/ban2.png" class="d-block w-100" alt="...">
       </div>
@@ -128,5 +130,9 @@
 </div>
 <script src="js/style.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
